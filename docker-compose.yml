@@ -3,10 +3,8 @@ services:
   graphql:
     container_name: graphql
     image: shahcompbio/spectrum-cohort-graphql:latest
-    ports:
-      - "4000:4000"
   frontend:
     container_name: frontend
     image: shahcompbio/spectrum-cohort-react:latest
     ports:
-      - "80:80"
+      - "5001:80"
