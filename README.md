@@ -16,4 +16,4 @@ To install a local instance of this dashboard, checkout this repository and star
 docker-compose up
 ```
 
-Then go to `localhost` to see the dashboard
+Then go to `localhost:5001` to see the dashboard
