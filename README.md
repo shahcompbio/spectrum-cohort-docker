@@ -10,7 +10,13 @@ All documentation for Spectrum visualization can be found on [https://shahcompbi
 
 ## Installation instructions
 
-To install a local instance of this dashboard, checkout this repository and start docker compose:
+To install a local instance of the dashboard, checkout this repository. Create a file called `.users` and add any user:password pairs you would like to use to authenticate the input function of the dashboard. To generate passwords I used:
+
+```
+openssl passwd -apr1
+```
+
+After you're done with `.users`, start docker compose:
 
 ```
 docker-compose up
