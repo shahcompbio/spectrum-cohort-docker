@@ -10,5 +10,7 @@ services:
     image: shahcompbio/spectrum-cohort-react:latest
     ports:
       - "5001:80"
+    volumes:
+      - ./.users:/etc/nginx/.users
 volumes:
   datavolume:
