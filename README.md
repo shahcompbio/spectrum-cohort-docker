@@ -1,12 +1,14 @@
-# Spectrum (Cohort)
+# Spectrum (Sample Processing)
 
-This project contains the web-based **cohort-level** visualization dashboard for Spectrum.
+This project contains the web-based **Sample Processing** visualization dashboard for Spectrum.
 
-The front-end is written using [React](https://reactjs.org/) and [Redux](https://redux.js.org/).
+- [GraphQL](https://github.com/shahcompbio/sylph-graphql)
+- [React](https://github.com/shahcompbio/sylph-react)
+- [**Docker**](https://github.com/shahcompbio/sylph-docker)
 
 ## Documentation
 
-All documentation for Spectrum visualization can be found on [https://shahcompbio-spectrum.netlify.com](https://shahcompbio-spectrum.netlify.com).
+All documentation for Spectrum visualization can be found on https://shahcompbio-spectrum.netlify.com.
 
 ## Installation instructions
 
