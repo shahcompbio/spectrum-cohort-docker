@@ -12,12 +12,12 @@ All documentation for Spectrum visualization can be found on https://shahcompbio
 
 ## Installation instructions
 
-To install a local instance of the dashboard, checkout this repository. 
+To install a local instance of the dashboard, checkout this repository.
 
 Users who want to input data for the visualization must be authenticated first. Create a file called `.users` and add any user:password pairs.
 
 ```
-cd spectrum-cohort-docker
+cd sylph-docker
 touch .users
 ```
 

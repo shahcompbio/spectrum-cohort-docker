@@ -2,12 +2,12 @@ version: "3"
 services:
   graphql:
     container_name: graphql
-    image: shahcompbio/spectrum-cohort-graphql:latest
+    image: shahcompbio/sylph-graphql:latest
     volumes:
       - datavolume:/root/data
   frontend:
     container_name: frontend
-    image: shahcompbio/spectrum-cohort-react:latest
+    image: shahcompbio/sylph-react:latest
     ports:
       - "5001:80"
     volumes:
